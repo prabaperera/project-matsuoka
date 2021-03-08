@@ -1,0 +1,307 @@
+body, html {
+  font-family: NotoSerifJP-Regular;
+}
+table {
+  border: none;
+}
+#background-img {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    position:fixed;
+    z-index:-99;
+    background: url('../../resources/body/main-background.png') 0% 0% no-repeat padding-box;
+    mix-blend-mode: soft-light;
+    opacity: 0.7;
+    background-size:cover;
+  }
+  .bgimg {
+    height: 100%; margin: auto; 
+    background: url('../../resources/51.svg') 0% 0% no-repeat padding-box;
+    width: 1920px;
+    height: 290px;
+  } 
+  table { width: 100%;height: 100% }
+  #menue-img-general {
+    margin-top: 130px;
+    margin-left: auto; 
+    margin-right: auto;
+    width: 86px;
+    height: 92px;
+    background: transparent url('../../resources/menu/general.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+  #menue-img-medical {
+    margin-top: 90px;
+    margin-left: auto; 
+    margin-right: auto;
+    width: 86px;
+    height: 88px;
+    background: transparent url('../../resources/menu/medical.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+  #menue-img-service {
+    margin-top: 70px;
+    margin-left: auto; 
+    margin-right: auto;
+    width: 130px;
+    height: 94px;
+    background: transparent url('../../resources/menu/service.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+  #menue-img-home {
+    margin-top: 10px;
+    margin-left: auto; 
+    margin-right: auto;
+    width: 124px;
+    height: 140px;
+    background: transparent url('../../resources/menu/home.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+  #menue-img-facility {
+    margin-top: 70px;
+    margin-left: auto; 
+    margin-right: auto;
+    width: 86px;
+    height: 91px;
+    background: transparent url('../../resources/menu/facility.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+  #menue-img-classroom {
+    margin-top: 90px;
+    margin-left: auto; 
+    margin-right: auto;
+    width: 108px;
+    height: 89px;
+    background: transparent url('../../resources/menu/classroom.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+  #menue-img-contact {
+    margin-top: 130px;
+    margin-left: auto; 
+    margin-right: auto;
+    width: 130px;
+    height: 80px;
+    background: transparent url('../../resources/menu/contact.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+  #transparent {
+    width: 100%;
+    height: 790px;
+    position:absolute;
+  }
+  .panels {
+    position:absolute;
+    height:100px;
+    
+    width:100%;
+  }
+
+  #body-foods {
+    width: 440px;
+    height: 420px;
+    background: transparent url('../../resources/body/foods/foods.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+  #body-history {
+    width: 428px;
+    height: 448px;
+    background: transparent url('../../resources/body/history/history.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+  #body-transportation {
+    width: 440px;
+    height: 420px;
+    background: transparent url('../../resources/body/transportation/transportation.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+  #body-staff {
+    width: 428px;
+    height: 448px;
+    background: transparent url('../../resources/body/staff/staff.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+  #body-repeat {
+    width: 440px;
+    height: 420px;
+    background: transparent url('../../resources/body/repeat/repeat.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+  .content-h1 {
+    color:#B5A272;
+    font-size: 60px;
+    opacity: 1;
+    font-family: Noto Serif JP,Medium;
+    padding-bottom: 30px;
+  }
+  .content-h2 {
+    color:#E36390;
+    font-size: 26px;
+    opacity: 1;
+    font-family: NotoSerifJP-Regular;
+    padding-bottom: 60px;
+  }
+  .deail-content {
+    color:#1A1311;
+    font-size: 14px;
+    opacity: 1;
+    font-family: A-OTF 中ゴシックBBB Pro, Medium;
+  }
+  .content {
+    max-width: 60%;
+    margin: auto;
+    padding: 15px;
+  }
+  .detail-background {
+    background: transparent url('../../resources/body/background.png') 0% 0% no-repeat padding-box; 
+  }
+  .buton-group {
+    color: #ffffff;
+    background-color: #EC7AA1;
+    border-radius: 25px;
+    font-size: 20px;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin: 0.75em;
+  }
+  .inline {
+    display:inline-block;
+  }
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .body-align-right {
+    margin: auto;
+    margin-right: 50px;
+    width: max-content;
+  }
+
+  .body-align-left {
+    width: max-content;
+    margin: auto;
+    margin-left: 50px;
+  }
+
+  /* FB Content */
+  .flag {
+    width: 370px;
+    height: 560px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 50% 95%, 0% 100%);
+    padding: 2rem 3rem 2rem 4rem;
+
+    background-color: #ffffff;
+  }
+  .flag-wrap {
+    filter: drop-shadow(-5px 8px 6px rgba(50, 50, 0, 0.5));
+  }
+  /*Map */
+  .imageDiv
+    {
+        position:relative;
+        bottom:-25px;
+        /* margin-left: 100px; */
+        background: #ffff;
+        display: block;
+        width: 700px;
+        height: 420px;
+        padding: 10px;
+        border-radius: 20px 20px 20px 20px;
+        -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+        -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    }
+
+  .bottomDiv {
+      position:relative;
+      bottom:300px;
+      left:650px;
+      width: 400px;
+      height: 380px;
+    }
+
+    .vertical{
+      writing-mode:tb-rl;
+      text-orientation: upright;
+      white-space:nowrap; 
+      display:block;
+      bottom:0;
+  }
+
+  .verticalText {
+    font-size: 100px;
+    color: #EC7AA1;
+    
+  }
+
+  .banner {
+    background: #ffd630; 
+    font-size: 26px;
+    margin-right: 10px; 
+    height: fit-content;
+  }
+
+  .verticalTextSmall {
+    font-size: 20px; 
+    color: #B5A272;
+    height: fit-content; 
+    text-orientation: sideways;
+  }
+
+  .line45degree {
+    border-top: 1px solid #EC7AA1;
+    -webkit-transform:
+        translateY(60px)
+        translateX(60px)
+        rotate(-45deg);
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: #EC7AA1;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+#contactDetail td {
+  
+  padding: 4px;
+  text-align: center;
+}
+
+#contactDetail tr td {
+  border-bottom: 1px solid black;
+}
+
+#more-details tr {
+  line-height: 10px;
+  color: #ffffff; 
+  font-size: 14px; 
+  font-family: A-OTF 中ゴシックBBB Pro;
+}
+
+.diagonal {
+  background: transparent url('../../resources/body/background/diagonal.svg')
+                      0% 0% no-repeat padding-box;
+                      width: 60px; height: 60px;
+                      margin: auto;
+}
+
+.left-detail-second-background {
+  background: transparent
+                    url('../../resources/body/left-detail-background.svg') 0% 0% no-repeat
+                    padding-box;
+                    margin: auto;
+                    margin-right: 0;
+}
+
+.right-detail-second-background {
+  background: transparent
+                  url('../../resources/body/right-detail-background.svg') 0% 0% no-repeat
+                  padding-box;
+                  margin: auto;
+                  margin-right: 0;
+}
